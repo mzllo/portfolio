@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>About Me</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      
+        <img id="background" src="artnanims/aquarium_nofish.gif">
+
+        <main class="ui-window">
+          <div class="instructions">
+            <p class="page-title">SELECT A CHARACTER</p>
+
+            <div class="buttons">
+              <a href="projects.html" style="font-size: 20px; margin-top: 0px; margin-bottom: 15px" >SKIP TO PROJECTS > </a>
+            </div>
+
+            <p id="text">
+              View the profiles below to learn more about my interests, skills, and goals.
+            </p>
+          </div>
+
+          <section class="profile-panel">
+            <div class="panel-title">PLAYER PROFILE</div>
+
+            <div class="profile-grid">
+              <div class="left-zone">
+                <div class="speech-bubble" id="speechText">
+                  I'm the engineering side of Chloe. I'm interested in designing systems, writing maintainable code, and continuously improving my technical skills.
+                </div>
+
+                <div class="character-stage">
+                  <img id="characterSprite" src="artnanims/swe-char.gif" alt="Programmer character">
+                </div>
+              </div>
+
+              <div class="right-zone">
+
+                <div class="identity-row">
+                  <img id="smallIcon" src="artnanims/swe-icon.png" alt="" class="small-profile-icon">
+
+                  <div>
+                    <div class="name-box" id="characterName">SOFTWARE ENGINEER</div>
+                    <p class="level" id="characterLevel">LEVEL: 2ND YEAR UNIVERSITY STUDENT</p>
+                  </div>
+                </div>
+                      
+
+                <div class="info-block" id="skillsBlock">
+                  <h3>SKILLS</h3>
+                  <p>Java <span>▰▰▰▰▰▱▱▱</span></p>
+                  <p>C <span>▰▰▰▱▱▱▱▱</span></p>
+                  <p>Python <span>▰▰▰▰▱▱▱▱</span></p>
+                  <p>Javascript <span>▰▰▰▰▱▱▱▱</span></p>
+                  <p>HTML/CSS <span>▰▰▰▰▰▱▱▱</span></p>
+                </div>
+
+                <div class="info-block" id="specialtyBlock">
+                  <h3>SPECIALTY</h3>
+                  <p>Problem solving • Object-Oriented Programming • Software Design</p>
+                </div>
+
+                <div class="info-block" id="questBlock">
+                  <h3>ACTIVE QUEST</h3>
+                  <p>Building a game-inspired portfolio, learning DSA, and seeking a Fall 2026 COOP internship.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+            <div class="character-select">
+              <button onclick="selectCharacter('programmer')">
+                <img src="artnanims/swe-icon.png" alt="Programmer">
+              </button>
+
+              <button onclick="selectCharacter('gamedev')">
+                <img src="artnanims/gamedev-icon.png" alt="Game Developer">
+              </button>
+            </div>
+
+            <div class="buttons">
+              <a href="projects.html" style="font-size: 30px; margin-top: 0px; margin-bottom: 15px" >CONTINUE TO PROJECTS > </a>
+            </div>
+          </div>
+        
+            </section> 
+
+        
+
+            <div class="buttons">
+                <a href="index.html" style="font-size: 50px;">BACK</a>
+            </div>
+
+        </main>
+        
+        
+    
+        
+
+
+      <script src="script.js"></script>
+    </body>
+</html>
