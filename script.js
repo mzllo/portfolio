@@ -8,8 +8,8 @@ const characters = { //backticks are template literals, allow to write multiline
     skills: `
      <h3>SKILLS</h3>
       <p>Java <span>▰▰▰▰▰▱▱▱</span></p>
-                  <p>C <span>▰▰▰▱▱▱▱▱</span></p>
-                  <p>Python <span>▰▰▰▰▱▱▱▱</span></p>
+                  <p>C <span>▰▰▰▰▱▱▱▱</span></p>
+                  <p>Python <span>▰▰▰▱▱▱▱▱</span></p>
                   <p>Javascript <span>▰▰▰▰▱▱▱▱</span></p>
                   <p>HTML/CSS <span>▰▰▰▰▰▱▱▱</span></p>
     `,
@@ -32,8 +32,8 @@ const characters = { //backticks are template literals, allow to write multiline
     skills: `
       <h3>SKILLS</h3>
       <p>GameMaker Studio <span>▰▰▰▰▰▱▱▱</span></p>
-                  <p>Unity <span>▰▰▰▱▱▱▱▱</span></p>
-                  <p>Unreal <span>▰▰▰▰▱▱▱▱</span></p>
+                  <p>Unity <span>▰▰▰▰▱▱▱▱</span></p>
+                  <p>Unreal <span>▰▰▱▱▱▱▱▱</span></p>
                   <p>Aesprite <span>▰▰▰▰▱▱▱▱</span></p>
                  
     `,
