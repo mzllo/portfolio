@@ -8,7 +8,7 @@ const characters = { //backticks are template literals, allow to write multiline
     skills: `
      <h3>SKILLS</h3>
       <p>Java <span>▰▰▰▰▰▱▱▱</span></p>
-                  <p>C <span>▰▰▰▰▱▱▱▱</span></p>
+                  <p>C++ <span>▰▰▰▰▱▱▱▱</span></p>
                   <p>Python <span>▰▰▰▱▱▱▱▱</span></p>
                   <p>Javascript <span>▰▰▰▰▱▱▱▱</span></p>
                   <p>HTML/CSS <span>▰▰▰▰▰▱▱▱</span></p>
@@ -19,7 +19,7 @@ const characters = { //backticks are template literals, allow to write multiline
     `,
     quest: `
       <h3>ACTIVE QUEST</h3>
-      <p>Building a game-inspired portfolio, learning DSA, and seeking a Fall 2026 COOP internship.</p>
+      <p>Building a game-inspired portfolio, learning OS, and seeking a Winter 2027 internship.</p>
     `
   },
 
@@ -43,7 +43,7 @@ const characters = { //backticks are template literals, allow to write multiline
     `,
     quest: `
       <h3>ACTIVE QUEST</h3>
-      <p>Building a pixel platformer, learning Unreal Engine, and seeking a Fall 2026 COOP internship.</p>
+      <p>Gaining experience with C++, learning Unreal Engine, and seeking a Winter 2027 internship.</p>
     `
   }
 };
